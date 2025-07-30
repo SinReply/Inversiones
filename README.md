@@ -1,24 +1,54 @@
-# 📈 Simulador de Inversiones
+# 💸 Simulador de Inversiones Aleatorias
 
-Un pequeño programa en Python para simular el crecimiento de una inversión a lo largo del tiempo, considerando parámetros como el capital inicial, la tasa de interés y el número de años.
+Este es un pequeño programa en Python que simula una inversión con resultados aleatorios, representando ganancias o pérdidas a través de variaciones porcentuales impredecibles. Ideal para experimentar con la volatilidad de las inversiones en un entorno de prueba y sin riesgos.
+
+---
 
 ## 🧠 ¿Qué hace este programa?
 
-Este script te permite:
+- Permite ingresar un monto inicial de inversión.
+- Simula ganancias o pérdidas con una probabilidad aleatoria.
+- Permite reinvertir el capital tantas veces como se desee.
+- Incluye una opción para invertir por lotes (ciclos consecutivos).
+- Puedes añadir más saldo a la inversión actual.
+- El interés puede ser negativo o positivo, con una probabilidad fija en cada ciclo.
 
-- Ingresar un capital inicial
-- Establecer una tasa de interés anual (compuesta o simple)
-- Definir el número de años
-- Ver el capital acumulado al final del período
-
-Ideal para principiantes que quieren experimentar con conceptos básicos de finanzas e interés compuesto.
+---
 
 ## 🚀 Cómo usarlo
 
-1. Asegúrate de tener Python instalado (cualquier versión que tengas te sirve).
-2. Clona este repositorio o descarga el archivo `.py`.
-3. Ejecuta el programa desde la terminal o consola:
+1. Asegúrate de tener Python 3 instalado.
+2. Descarga o clona este repositorio.
+3. Ejecuta el archivo desde la terminal:
 
 ```bash
-python Inversiones.py
+python simulador_inversion.py
+```
 
+## 🎮 Opciones del menú
+Al ejecutar el programa verás un menú con las siguientes opciones:
+
+- Opción 1: Ingresar monto inicial para comenzar a invertir.
+- Opción 2: Invertir una vez más sobre el monto actual.
+- Opción 3: Salir del programa y ver resultado final.
+- Opción 4: Simular múltiples inversiones seguidas (por lotes).
+- Opción 5: Añadir más saldo a tu inversión actual.
+
+## 📦 Ejemplo de ejecución
+
+Ingresa Una Opcion Para Continuar:
+- Opcion 1 - Ingresar monto inicial.
+- Opcion 2 - Generar interes.
+- Opcion 3 - Salir del programa.
+- Opcion 4 - Generar intereses por lotes.
+- Opcion 5 - Añadir saldo.
+--> 1
+
+Ingresa el monto inicial para invertir: 1000
+
+Procesando el monto ingresado...
+Monto Actual: ¥1000.0
+
+Después de esperar un poco, tu saldo actual es de ¥984.0
+- Con un interés de: -1.6%
+- Obtuviste una pérdida de ¥16.0
