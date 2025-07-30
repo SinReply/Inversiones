@@ -187,5 +187,5 @@ def main():
         nuevo_monto += mas_saldo
         print(f"Saldo actualizado de ¥{monto_nuevo} --> ¥{nuevo_monto}\n")
         main()
-        
+
 main()
